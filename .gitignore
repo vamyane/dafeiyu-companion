@@ -1,0 +1,34 @@
+# Gradle
+.gradle/
+.build/
+build/
+**/build/
+build-v2/
+build-v3/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local config
+local.properties
+.env
+.env.local
+
+# IDE
+.idea/
+*.iml
+*.hprof
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Signing
+*.jks
+*.keystore
+*.p12
